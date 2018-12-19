@@ -61,6 +61,13 @@ Of the dataset provided I am interested in the following features: Name of the Q
 `amsterdam_merged = amsterdam_merged.join(ams_quarters.set_index('Neighborhood'), on='Neighborhood', how='inner')`
 ![Analysis](analysis5.png)
 
+10.
+![Map](map_1.png)
+
+
+11.
+![Map](map_2.png)
+
 
 ## Results
 TBD
