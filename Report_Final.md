@@ -38,11 +38,23 @@ Of the dataset provided I am interested in the following features: Name of the Q
 3. Using the coordinates of the quarters from 2. I called the Foursquare API explore `https://api.foursquare.com/v2/venues/explore` to get the top 100 venues in a 500 meter range of the central point of the quarter. I also used the `section` parameter to limit the results to only food venues. The data was stored into a data frame with 2401 rows and 7 columns: `['Neighborhood', 'Neighborhood Latitude', 'Neighborhood Longitude', 'Venue', 'Venue Latitude', 'Venue Longitude', 'Venue Category']`
 ![Sample Data Venues](sample_data_venues.png)
 
-4. For each Quarter I counted the venues by type and calculate the most populars (by frequency). This will be used later for the analysis.
+4. For each Quarter I counted the venues by type and calculated the most populars (by frequency). This will be used later for the analysis.
+![most populars venues](neighborhoods_venues_sorted.png)
 
-5. 
+5. The focus of the analysis is on Italian Restaurants so I've extracted from the data frame only the column for italian restaurants.
+`amsterdam_italian_restaurant_count = amsterdam_restaurants_count[['Neighborhood','Italian Restaurant']].sort_values('Italian Restaurant', ascending=False)`
+![Analysis](analysis1.png)
 
 
+![Analysis](analysis2.png)
+
+
+![Analysis](analysis3.png)
+
+![Analysis](analysis4.png)
+
+
+![Analysis](analysis5.png)
 
 
 ## Results
