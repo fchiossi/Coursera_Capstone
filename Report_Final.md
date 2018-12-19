@@ -79,7 +79,7 @@ Of the dataset provided I am interested in the following features: Name of the Q
   ![Map](map_op.png)
 - This can be verified looking at the data, taking the top ten quarters by total number of venues and sort by Italian Restaurant Ratio:
 ![Top 10](top10.png)
-- This confirms that Van Lennepbuurt and Oude Pijp are the ones with the lowest Italian Restaurant Ratio among the top 10 quartes with the most food venues.
+- This confirms that Van Lennepbuurt and Oude Pijp are the ones with the lowest Italian Restaurant Ratio among the top 10 quartes with the most food venues (with 4% and 5% respectively).
 - To get an idea of the type of competitors let's see what are the Most Common Venues in these 2 quarters :
 ![Map](most_vl.png)
 ![Map](most_op.png)
