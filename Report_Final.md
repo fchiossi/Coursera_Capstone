@@ -86,8 +86,13 @@ Of the dataset provided I am interested in the following features: Name of the Q
 - We see that in both places Italian Restaurants are among the most common food venues, indicating that the type of venues in these quarters are very varied.
 
 ## Discussion
-- To further improve this analysis we would need data from additional data sources, for example on the population or the real estate value of the buildings
-
+- To further improve this analysis we would need data from additional data sources, for example on the population or the real estate value of the buildings.
+- The limit of 100 venues for each quarter could limit the precicion of the analysis as there are 4 quartes that seems to have more that 100 venues.
+- The range of 500 meters from the center of the quarter might also be questioned as the quarters vary a lot in area. The one near the center are comparatively smaller than the ones in the outskirts. So using a variable range could lead to more accurate results.
+- The city could also be divided in smaller neighborhoods; I tested this segmentation but it ended up in having a small number of venues for each didvision and therefore the comparison would have been more difficult.
+- To further improve this analysis we would need data from additional data sources, for example on the population or the real estate value of the buildings.
 
 ## Conclusion
-TBD
+- This analysis lead to the conclusion that the Foursquare data can be used to solve problems like the placing of a new venue on a city. In the specific case of Italian Reastaurants in Amsterdam the 2 most promising locations are
+  - Van Lennepbuurt
+  - Oude Pijp
