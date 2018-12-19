@@ -1,11 +1,15 @@
-### Introduction
+# Applied Data Science Capstone Project on Coursera
+## The Battle of Neighborhoods: Where to open a new Italian Restaurant in Amsterdam?
+### Author: Francesco Chiossi
+
+## Introduction
 - The client would like to open a new Italian restaurant in Amsterdam (The Netherlands) and would like to know what is the best place in the city to open one, based on the other restaurants that are nearby.
 - The target audience are entrepreneur in the food and services industry that want to open their first venue or expand their existing chain.
 The approach of this study can be easily applied to other cities or other categories of restaurants.
 - This is important because the location of a restaurant can affect in a significant way its profitability.
 
 
-### Data
+## Data
 
 
 In order to solve the problem I will use the following data:
@@ -22,21 +26,21 @@ Of the dataset provided I am interested in the following features: Name of the Q
 
 ![Sample Data Venues](sample_data_venues.png)
 
-### Methodology
+## Methodology
 TDB
 
 
 
 
 
-### Results
+## Results
 TBD
 
 
 
-### Discussion
+## Discussion
 TBD
 
 
-### Conclusion
+## Conclusion
 TBD
