@@ -45,15 +45,16 @@ Of the dataset provided I am interested in the following features: Name of the Q
 `amsterdam_italian_restaurant_count = amsterdam_restaurants_count[['Neighborhood','Italian Restaurant']].sort_values('Italian Restaurant', ascending=False)`
 ![Analysis](analysis1.png)
 
-
+6. I then counted the total number of food venues for each Quarter. `amsterdam_food_venues_count = amsterdam_venues[['Neighborhood', 'Venue']].groupby('Neighborhood').count().reset_index()`
 ![Analysis](analysis2.png)
 
-
+7. The number of Italian Restaurants and the total number of food venues for each Quarter are merged in the same dataset. `amsterdam_merged = amsterdam_italian_restaurant_count.join(amsterdam_food_venues_count.set_index('Neighborhood'), on='Neighborhood', how='inner')'
 ![Analysis](analysis3.png)
 
+8. A new column is added to represent the ratio(percentage) of Italian Restaurants over the total number of food venues. `amsterdam_merged['Italian Restaurant Ratio'] = amsterdam_merged['Italian Restaurant']/amsterdam_merged['Total Food Venues']`
 ![Analysis](analysis4.png)
 
-
+9. The coordinates of the Quarters are then added to the data frame. This will be used for the visualzation of the data on the map. `amsterdam_merged = amsterdam_merged.join(ams_quarters.set_index('Neighborhood'), on='Neighborhood', how='inner')`
 ![Analysis](analysis5.png)
 
 
