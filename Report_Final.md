@@ -70,8 +70,18 @@ Of the dataset provided I am interested in the following features: Name of the Q
 
 
 ## Results
-TBD
+- From the first map we can see that the Italian Restaurants are concentrated around the city center, and to a lower extend on the west side of the city. We see a similar distribution for the total number of restaurants, with the main concentration around the city center and to a lower extent to the west and south parts of the city.
+- An interesting place to open a new Italian Restaurant would be a quarter with many food venues, since it indicates there's a lot of demand, but few other Italian Restaurants, so that a new one won't face to heavy competion and there's market for it. This translate to points on the map where there's a large red circle with a very small blue point in the middle.
+- From the map there are 2 locations that jums to the eye:
+  - Van Lennepbuurt with 4 Italian Restaurants and more than 100 food venues
+  ![Map](map_vl.png)
+  - Oude Pijp with 5 Italian Restaurants and more than 100 food venues
+  ![Map](map_op.png)
 
+
+![Map](top10.png)
+![Map](most_vl.png)
+![Map](most_op.png)
 
 
 ## Discussion
