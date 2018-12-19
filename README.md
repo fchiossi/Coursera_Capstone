@@ -1,2 +1,5 @@
-# Coursera_Capstone
-Applied Data Science Capstone Project
+# Applied Data Science Capstone Project on Coursera
+## The Battle of Neighborhoods: Where to open a new Italian Restaurant in Amsterdam?
+### Author: Francesco Chiossi
+
+* [Report](report.md)
