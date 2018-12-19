@@ -30,10 +30,13 @@ Of the dataset provided I am interested in the following features: Name of the Q
 ## Methodology
 1. I started by loading into a pandas data frame the open data provided by the city of Amsterdam with list of Quarters with geospatial coordinates. The data frame had 99 entries with the following columns:
 `['OBJECTNUMMER', 'Buurtcombinatie_code', 'Buurtcombinatie','Stadsdeel_code', 'Opp_m2', 'COORDS', 'LNG', 'LAT', 'Unnamed: 8']`.
+![Sample Data Quarters](sample_data_quarter.png)
 
 2. From the data set I extracted the 3 columns with the features I needed: Name of the Quarter (Buurtcombinatie), Longitude (LNG), Latitude (LAT). Longitude and Latitude where provided with the comma as decimal separator, so they were converted to use the dot.
+![Quarters](ams_quarters.png)
 
 3. Using the coordinates of the quarters from 2. I called the Foursquare API explore `https://api.foursquare.com/v2/venues/explore` to get the top 100 venues in a 500 meter range of the central point of the quarter. I also used the `section` parameter to limit the results to only food venues. The data was stored into a data frame with 2401 rows and 7 columns: `['Neighborhood', 'Neighborhood Latitude', 'Neighborhood Longitude', 'Venue', 'Venue Latitude', 'Venue Longitude', 'Venue Category']`
+![Sample Data Venues](sample_data_venues.png)
 
 4. For each Quarter I counted the venues by type and calculate the most populars (by frequency). This will be used later for the analysis.
 
