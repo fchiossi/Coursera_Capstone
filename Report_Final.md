@@ -77,15 +77,16 @@ Of the dataset provided I am interested in the following features: Name of the Q
   ![Map](map_vl.png)
   - Oude Pijp with 5 Italian Restaurants and more than 100 food venues
   ![Map](map_op.png)
-
-
-![Map](top10.png)
+- This can be verified looking at the data, taking the top ten quarters by total number of venues and sort by Italian Restaurant Ratio:
+![Top 10](top10.png)
+- This confirms that Van Lennepbuurt and Oude Pijp are the ones with the lowest Italian Restaurant Ratio among the top 10 quartes with the most food venues.
+- To get an idea of the type of competitors let's see what are the Most Common Venues in these 2 quarters :
 ![Map](most_vl.png)
 ![Map](most_op.png)
-
+- We see that in both places Italian Restaurants are among the most common food venues, indicating that the type of venues in these quarters are very varied.
 
 ## Discussion
-TBD
+- To further improve this analysis we would need data from additional data sources, for example on the population or the real estate value of the buildings
 
 
 ## Conclusion
