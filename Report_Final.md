@@ -96,3 +96,4 @@ Of the dataset provided I am interested in the following features: Name of the Q
 - This analysis lead to the conclusion that the Foursquare data can be used to solve problems like the placing of a new venue on a city. In the specific case of Italian Reastaurants in Amsterdam the 2 most promising locations are
   - Van Lennepbuurt
   - Oude Pijp
+- That would be the advice to the client that posed the problem.
